@@ -22,14 +22,3 @@ function clique() {
   }
   
 }
-/*
-if (seuNumero != numAleatorio) {
-  var resultado document.querySelector(".resultado").innerHTML = "Acabou suas chances!";
-}
-
-
-if (escolhaNumero != numereroSecreto) {
-  alert('Suas tentativas acabaram. O numero secreto era: ' + numereroSecreto)
-}
-
-**/
