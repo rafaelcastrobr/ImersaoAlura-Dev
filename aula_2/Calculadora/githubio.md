@@ -1,3 +1,3 @@
 # Github.io
 
-<a href="https://rafaelcastrobr.github.io/ImersaoAlura-Dev/aula_2/Calculadora/">
+<a href="https://rafaelcastrobr.github.io/ImersaoAlura-Dev/aula_2/Calculadora/">Calculadora</a>
