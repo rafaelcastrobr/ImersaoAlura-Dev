@@ -1,13 +1,13 @@
-var paulo = {
-  nome: "paulo",
+var time2 = {
+  nome: "Corinthians",
   vitorias: 0,
   empates: 0,
   derrotas: 0,
   pontos: 0,
 }
 
-var rafa = {
-  nome: "rafa",
+var time1 = {
+  nome: "Palmeiras",
   vitorias: 0,
   empates: 0,
   derrotas: 0,
@@ -20,11 +20,11 @@ function calculaPontos(jogador) {
   return pontos
 }
 
-var jogadores = [rafa, paulo]
+var jogadores = [time1, time2]
 
-jogadores[0].nome = document.getElementById("tabelaJogadores").innerHTML = jogadores[0].nome + "<br><img width='40%' src='https://media-exp1.licdn.com/dms/image/C4D03AQE3T9SwW5oPGw/profile-displayphoto-shrink_200_200/0/1612878972645?e=1619049600&v=beta&t=pUjean3-lags7aHRhqDxbPwJzey46TVJQ8d1cSFBaK4'>"
+jogadores[0].nome = document.getElementById("tabelaJogadores").innerHTML = jogadores[0].nome + "<br><img width='40%' src='https://i.pinimg.com/originals/53/04/aa/5304aa8890adedc14ae704c07fc2b064.png'>"
 
-jogadores[1].nome = document.getElementById("tabelaJogadores").innerHTML = jogadores[1].nome + "<br><img width='40%' src='https://media-exp1.licdn.com/dms/image/C4D03AQHNUGchMAa-Yw/profile-displayphoto-shrink_200_200/0/1556583729599?e=1622678400&v=beta&t=EnBoscF_pr3UJOPwgb3cz354Smw4HStPzBbqbQJqa30'>"
+jogadores[1].nome = document.getElementById("tabelaJogadores").innerHTML = jogadores[1].nome + "<br><img width='40%' src='https://futebafc.com.br/wp-content/uploads/2018/12/CORINTHIANS.png'>"
 
 
 exibirJogadoresNaTela(jogadores)
