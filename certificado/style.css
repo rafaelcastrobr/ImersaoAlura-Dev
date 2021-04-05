@@ -1,0 +1,58 @@
+body {
+  background-color: #473C8B;
+  font-family: 'Architects Daughter', cursive;
+}
+
+div {
+  padding: 15px;
+  background-color: #CDC0B0;
+  margin: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+section {
+-webkit-box-shadow: 6px 9px 45px 7px rgba(0,0,0,0.77); 
+box-shadow: 6px 9px 45px 7px rgba(0,0,0,0.77);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
+  margin-top: 100px;
+  background-color: white;
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+
+
+section p {
+  text-align: center;
+  font-size: 25px;
+
+}
+
+section h1 {
+  font-size: 25px;
+  text-align: center;
+}
+
+header {
+  background-image: url("http://s2.glbimg.com/Ynt5hrsmWILyTlv4LcpHDZAwGhuuZD9VXJnNvx3bsXZnC2VBcxKeUU23SQKjQv6c/e.glbimg.com/og/ed/f/original/2012/03/20/internet_1.jpg");
+  background-size: cover;
+  height: 80px;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: translateY(-50%);
+  border: 8px solid white;
+  
+}
